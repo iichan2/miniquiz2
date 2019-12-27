@@ -22,7 +22,7 @@
 </template>
 
 <script>
-  //　動作は，Signupコンポーネントと同じ。
+  //動作は，Signupコンポーネントと同じ。
   export default {
     name: 'Signin',
     data() {

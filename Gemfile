@@ -69,6 +69,7 @@ gem 'pry-rails'
 gem 'bcrypt'
 gem 'jwt_sessions'
 gem 'redis'
+gem 'redis-rails'
 
 group :production do
   gem 'pg'

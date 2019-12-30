@@ -6,7 +6,7 @@ import axios from 'axios'
 // 本番環境用
 // const API_URL = 'https://miniquiz2.herokuapp.com'
 
-const API_URL = process.env.baseURL || "http://localhost:3000"
+const API_URL = process.env.baseURL || "https://miniquiz2.herokuapp.com"
 
 const securedAxiosInstance = axios.create({
   baseURL: API_URL,

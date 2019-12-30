@@ -74,4 +74,5 @@ group :production do
   gem 'pg'
 end
 gem 'rack-cors'
+gem 'rails_12factor', group: :production
 

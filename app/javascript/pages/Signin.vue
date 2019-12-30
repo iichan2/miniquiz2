@@ -40,7 +40,7 @@
     },
     methods: {
       signin() {
-        this.$http.plain.post('/#/api/signin', { email: this.email, password: this.password })
+        this.$http.plain.post('/api/signin', { email: this.email, password: this.password })
           .then(response => this.signinSuccessful(response))
           .catch(error => this.signinFailed(error))
       },
